@@ -13,6 +13,7 @@ function getOutput() {
 function printOutput(num){
     if (!num || "" == num) {
         document.getElementById("Output Value").innerText="";
+        console.log(num);
     }else{
         document.getElementById("Output Value").innerHTML=getFormattedNumber(num);
     }
